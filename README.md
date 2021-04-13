@@ -37,7 +37,7 @@ Para escribir esto:
 if():
   #some code
 else:
-  if()
+  if():
     #some more code
 ```
 Se puede escribir como:
