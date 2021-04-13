@@ -1,4 +1,4 @@
-cantidad = input("ingrese la cantidad de Kw")
+cantidad = int(input("ingrese la cantidad de Kw"))
 if cantidad <= 200:
     precio = 0.05
 elif cantidad > 200 and cantidad < 1000:

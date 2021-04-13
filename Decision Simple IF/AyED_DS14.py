@@ -1,5 +1,5 @@
-n1 = input("Ingresa el primer numero \n" )  
-n2 = input("Ingresa el segundo numero \n" ) 
+n1 = int(input("Ingresa el primer numero \n" ))
+n2 = int(input("Ingresa el segundo numero \n" ))
 if a > b:
     a = a - a * 0.2
 else:

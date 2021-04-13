@@ -1,5 +1,5 @@
 Tipo = input("Ingresa el tipo \n" )  
-Medida = input("Ingresa la medida \n" )
+Medida = int(input("Ingresa la medida \n" ))
 if Tipo == 'A':
     if Medida >= 163 and Medida <= 167:
         print('Pieza Correcta')

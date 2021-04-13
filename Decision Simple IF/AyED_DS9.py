@@ -1,6 +1,6 @@
 tipo = input("ingrese el tipo de cliente")
-cantidad = input("ingrese la cantida de libros")
-bruto = input ("ingrese el importe bruto total")
+cantidad = int(input("ingrese la cantida de libros"))
+bruto = int(input ("ingrese el importe bruto total"))
 if tipo == 'L':
     if cantidad <= 24:
         total = bruto - (bruto * 0.2)

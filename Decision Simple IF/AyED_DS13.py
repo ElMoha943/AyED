@@ -1,9 +1,9 @@
-n1 = input("Ingresa el primer numero \n" )  
-n2 = input("Ingresa el segundo numero \n" )  
-n3 = input("Ingresa el tercer numero \n" )  
-n4 = input("Ingresa el cuarto numero \n" )  
-n5 = input("Ingresa el quinto numero \n" )  
-n6 = input("Ingresa el sexto numero \n" )  
+n1 = int(input("Ingresa el primer numero \n" ))  
+n2 = int(input("Ingresa el segundo numero \n" ))  
+n3 = int(input("Ingresa el tercer numero \n" ))  
+n4 = int(input("Ingresa el cuarto numero \n" ))  
+n5 = int(input("Ingresa el quinto numero \n" ))  
+n6 = int(input("Ingresa el sexto numero \n" ))  
 
 if n1 > n2 and n1 > n3 and n1 > n4 and n1 > n5 and n1 > n6:
     mayor = n1

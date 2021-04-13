@@ -1,6 +1,6 @@
-a1 = input("Ingresa el primer angulo \n" )  
-a2 = input("Ingresa el segundo angulo \n" )  
-a3 = input("Ingresa el tercer angulo \n" )
+a1 = int(input("Ingresa el primer angulo \n" ))
+a2 = int(input("Ingresa el segundo angulo \n" ))
+a3 = int(input("Ingresa el tercer angulo \n" ))
 if a1+a2+a3 == 180:
     if a1 == 90 or a2 == 90 or a3 == 30:
         print('El triangulo es rectangulo')
