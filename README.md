@@ -44,7 +44,7 @@ Se puede escribir como:
 ```python
 if():
   #some code
-else if():
+elif():
   #some more code
 ```
 
