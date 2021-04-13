@@ -35,17 +35,17 @@ print("sueldo del operario N°{numero}: {sueldo}".format(numero=i,sueldo=sueldo)
 Para escribir esto:
 ```python
 if():
-  *some code*
+  #some code
 else:
   if()
-    *some more code**
+    #some more code
 ```
 Se puede escribir como:
 ```python
 if():
-  *some code*
+  #some code
 else if():
-  *some more code**
+  #some more code
 ```
 
 ### Q: Que es la funcion Range() que usas en los for?
