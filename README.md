@@ -29,7 +29,7 @@ print("sueldo del operario N°{numero}: {sueldo}".format(numero=i,sueldo=sueldo)
 
 ## FAQ
 
-### Q: Que es **elif**
+### Q: ¿Qué es **elif**?
 ### A: Tambien conocido como "else if" es una estructura similar a meter un if dentro del else de otro if:
 
 Para escribir esto:
@@ -48,7 +48,7 @@ elif():
   #some more code
 ```
 
-### Q: Que es la funcion Range() que usas en los for?
+### Q: ¿Qué es la funcion Range() que usas en los for?
 ### A: La funcion devulve una serie de numeros, empezando en 0 por default, e incrementando en 1 (por default), y termina en el numero especificado.
 
 ```python
