@@ -18,7 +18,12 @@ remu = int(input("ingrese la remuneracion por hora\n"))
 
 ### Usar mas de una variable en un print() y/o mostrarla en el medio del mensaje.
 
-Solucion: utilizar el nuevo estilo de formateado de python. Ejemplo:
+Solucion 1:
+```python
+print("sueldo del operario N°",i,": ",sueldo))
+```
+
+Solucion 2: utilizar el nuevo estilo de formateado de python. Ejemplo:
 ```python
 print("sueldo del operario N°{}: {}".format(i,sueldo))
 ```
