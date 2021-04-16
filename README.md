@@ -16,20 +16,38 @@ Ejemplo:
 remu = int(input("ingrese la remuneracion por hora\n"))
 ```
 
-### Usar mas de una variable en un print() y/o mostrarla en el medio del mensaje.
+### Programa crashea al ingresar un valor de otro tipo al convertir el resultado de la funcion input().
 
-Solucion 1:
+Si escribimos por ejemplo:
+`option=int(input())`
+Si ingresamos un valor que no sea un numero entero el programa crasheara y mostrara el error:
+`Error invalid literal for int() with base 10`
+
+Solucion: utilizar try and catch.
 ```python
-print("sueldo del operario N°",i,": ",sueldo))
+try:
+            option=int(input())
+        except ValueError:
+            print("Por favor ingrese un numero entero")
 ```
 
-Solucion 2: utilizar el nuevo estilo de formateado de python. Ejemplo:
+### Usar variables en input().
+
+Si escribimos por ejemplo:
 ```python
-print("sueldo del operario N°{}: {}".format(i,sueldo))
+input("sueldo del operario N°",i,": ",sueldo)
+```
+El programa crasheara y mostrara el error: 
+
+`TypeError: input expected at most 1 arguments, got 3”`
+
+Solucion : utilizar el nuevo estilo de formateado de python. Ejemplo:
+```python
+input("sueldo del operario N°{}: {}".format(i,sueldo))
 ```
 Tambien se puede asi:
 ```python
-print("sueldo del operario N°{numero}: {sueldo}".format(numero=i,sueldo=sueldo))
+input("sueldo del operario N°{numero}: {sueldo}".format(numero=i,sueldo=sueldo))
 ```
 
 ## FAQ
