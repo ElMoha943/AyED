@@ -20,11 +20,11 @@ remu = int(input("ingrese la remuneracion por hora\n"))
 
 Si escribimos por ejemplo: `option=int(input())` e ingresamos un valor que no sea un numero entero, el programa crasheara y mostrara el error: `Error invalid literal for int() with base 10`
 
-Solucion: utilizar try and catch.
+Solucion: Utilizar un manejo de excepciones. Ejemplo:
 ```python
 try:
             option=int(input())
-        except ValueError:
+except ValueError:
             print("Por favor ingrese un numero entero")
 ```
 
