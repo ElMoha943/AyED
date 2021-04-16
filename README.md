@@ -18,10 +18,7 @@ remu = int(input("ingrese la remuneracion por hora\n"))
 
 ### Programa crashea al ingresar un valor de otro tipo al convertir el resultado de la funcion input().
 
-Si escribimos por ejemplo:
-`option=int(input())`
-Si ingresamos un valor que no sea un numero entero el programa crasheara y mostrara el error:
-`Error invalid literal for int() with base 10`
+Si escribimos por ejemplo: `option=int(input())` e ingresamos un valor que no sea un numero entero, el programa crasheara y mostrara el error: `Error invalid literal for int() with base 10`
 
 Solucion: utilizar try and catch.
 ```python
