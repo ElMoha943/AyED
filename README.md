@@ -64,7 +64,7 @@ while True:
     if(condition):  
         break  
 ```
-Nota: la palabra clave "break" termina el bucle actual y sigue ejecutando el programa fuera de este.
+*Nota: la palabra clave "break" termina el bucle actual y sigue ejecutando el programa fuera de este.*
 ## FAQ
 
 ### Q: ¿Qué es **elif**? <br> A: Tambien conocido como "else if" es una estructura similar a meter un if dentro del else de otro if:
