@@ -47,6 +47,24 @@ Tambien se puede asi:
 input("sueldo del operario N°{numero}: {sueldo}".format(numero=i,sueldo=sueldo))
 ```
 
+### Python no cuenta con loops do-while
+
+**Podemos emular estos de la siguiente manera:**
+
+Lo que en C seria:
+```
+do {  
+     #statement  
+} while (condition);
+```
+Podemos escribirlo como:
+```
+while True:  
+    #statement  
+    if(condition):  
+        break  
+```
+Nota: la palabra clave "break" termina el bucle actual y sigue ejecutando el programa fuera de este.
 ## FAQ
 
 ### Q: ¿Qué es **elif**? <br> A: Tambien conocido como "else if" es una estructura similar a meter un if dentro del else de otro if:
