@@ -40,7 +40,7 @@ El programa crasheara y mostrara el error:
 
 Solucion : utilizar el nuevo estilo de formateado de python. Ejemplo:
 ```python
-input("Ingrese el sueldo del operario N°{}.format(i))
+input("Ingrese el sueldo del operario N°{}".format(i))
 ```
 Tambien se puede asi:
 ```python
