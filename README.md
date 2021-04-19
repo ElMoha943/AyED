@@ -32,19 +32,19 @@ except ValueError:
 
 Si escribimos por ejemplo:
 ```python
-input("sueldo del operario N°",i,": ",sueldo)
+input("Ingrese el sueldo del operario N°",i)
 ```
 El programa crasheara y mostrara el error: 
 
-`TypeError: input expected at most 1 arguments, got 3”`
+`TypeError: input expected at most 1 arguments, got 2”`
 
 Solucion : utilizar el nuevo estilo de formateado de python. Ejemplo:
 ```python
-input("sueldo del operario N°{}: {}".format(i,sueldo))
+input("Ingrese el sueldo del operario N°{}.format(i))
 ```
 Tambien se puede asi:
 ```python
-input("sueldo del operario N°{numero}: {sueldo}".format(numero=i,sueldo=sueldo))
+input("Ingrese el sueldo del operario N°{numero}".format(numero=i))
 ```
 
 ### Python no cuenta con loops do-while
