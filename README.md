@@ -38,14 +38,20 @@ El programa crasheara y mostrara el error:
 
 `TypeError: input expected at most 1 arguments, got 2”`
 
-Solucion : utilizar el nuevo estilo de formateado de python. Ejemplo:
+Solucion : utilizar otro estilo de formateado de python.
+Mi favorito es este:
 ```python
-input("Ingrese el sueldo del operario N°{}".format(i))
+input(f"Ingrese el sueldo del operario N°{i}")
 ```
 Tambien se puede asi:
 ```python
+input("Ingrese el sueldo del operario N°{}".format(i))
+```
+O asi:
+```python
 input("Ingrese el sueldo del operario N°{numero}".format(numero=i))
 ```
+
 
 ### Python no cuenta con loops do-while
 
@@ -92,5 +98,7 @@ for x in range(2, 30, 3):
   print(x)
 ```
 *Ejemplo de la funcion Range() donde va desde 2 a 30, sumando de a 3 numeros.*
+
+### Q: ¿Qué es \n? A: Sirve para realizar un salto de linea.
 
 ### Q: ¿Donde puedo aprender mas? <br> A: Recomiendo [esta pagina](https://www.w3schools.com/python/default.asp)
