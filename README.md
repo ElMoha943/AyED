@@ -71,6 +71,12 @@ while True:
         break  
 ```
 *Nota: la palabra clave "break" termina el bucle actual y sigue ejecutando el programa fuera de este.*
+
+### Hacer potencia de un numero
+
+El operador para realizar esto es `**` y no `^` como en la mayoria de lenguajes. Tambien destacar que para dividir numeros con un resultado entero se utiliza `//`.
+
+
 ## FAQ
 
 ### Q: ¿Qué es **elif**? <br> A: Es una estructura similar a meter un if dentro del else de otro if:
