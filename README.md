@@ -73,21 +73,21 @@ while True:
 *Nota: la palabra clave "break" termina el bucle actual y sigue ejecutando el programa fuera de este.*
 ## FAQ
 
-### Q: ¿Qué es **elif**? <br> A: Tambien conocido como "else if" es una estructura similar a meter un if dentro del else de otro if:
+### Q: ¿Qué es **elif**? <br> A: Es una estructura similar a meter un if dentro del else de otro if:
 
 Para escribir esto:
 ```python
-if():
+if(condition1):
   #some code
 else:
-  if():
+  if(condition2):
     #some more code
 ```
 Se puede escribir como:
 ```python
-if():
+if(condition1):
   #some code
-elif():
+elif(condition2):
   #some more code
 ```
 
@@ -99,6 +99,28 @@ for x in range(2, 30, 3):
 ```
 *Ejemplo de la funcion Range() donde va desde 2 a 30, sumando de a 3 numeros.*
 
-### Q: ¿Qué es \n? A: Sirve para realizar un salto de linea.
+### Q: ¿Qué es \n? <br> A: Sirve para realizar un salto de linea.
+
+### Q: ¿Que tipo de variable debo usar en cada caso? <br> A: este tema requiere una explicacion detallada:
+
+Para determinar que tipo de variable usar debemos tener en cuenta varios factores como:
+- **Que se va a guardar en la variable? un numero entero?** un numero decimal? una palabra? una fecha?
+- **Que vamos a hacer con ese dato?** Utilizaremos funciones aritmeticas (suma, resta, etc)? usarlo como referencia? o querremos saber que tan largo es, hacerle cambios en posiciones especificas, etc?
+- **Nos intereza ahorrar espacio de almacenamiento?** (por ejemplo en programas grandes o al tener espacio limitado como en microchips)
+
+Por norma general y si queremos ir a lo facil se puede tomar como que:
+- Numeros enteros (sin coma) utilizaran datos de tipo Integer (int, long, short, byte, etc).
+- Numeros decimales utilizaran tipo Float (float, double, decimal).
+- 1 solo caracter puede representarse con Char.
+- Un conjunto de caracteres, una palabra o frase utilizara tipo String.
+- Un '0' o '1' **logico** (true or false) se representara con un tipo Bool.
+
+Notas:
+- Numeros enteros solo positivos deberian en cambio utilizar **Unsigned Integer** para ahorrar espacio.
+
+Esto sin embargo puede variar. Ejemplo:
+Si se desea guardar el numero de documento de una persona uno podria argumentar que al ser un numero no decimal deberia guardarse en un tipo int. Sin embargo si nos ponemos a analizar el uso del dato que guardaraemos la cosa cambia... Es mas factible que a dicho dato se le quiera tomar una parte (4 ultimos digitos por ejemplo) a que se lo quiera usar para sumarlo a otro numero. En este caso seria mejor un tipo String a un tipo Int, debido a sus funciones. Pero y si quiero por ejemplo buscar todos los dni > a x numero? no es lo mismo hacer x > 500 que x > "500" ("500" > "100000"). O si estoy trabajando con muy poco espacio o simplemente quiero optimizar mi programa? un tipo entero ocupa mucho menos que un tipo string.
+
+Este pequeño ejemplo muestra que no siempre se peude seguir una norma para definir el tipo de variable. El programador debera elegir el que mas se adapte a su caso de uso y sus necesidades.
 
 ### Q: ¿Donde puedo aprender mas? <br> A: Recomiendo [esta pagina](https://www.w3schools.com/python/default.asp)
