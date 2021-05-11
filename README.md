@@ -104,7 +104,7 @@ for x in range(2, 30, 3):
 ### Q: ¿Que tipo de variable debo usar en cada caso? <br> A: este tema requiere una explicacion detallada:
 
 Para determinar que tipo de variable usar debemos tener en cuenta varios factores como:
-- **Que se va a guardar en la variable? un numero entero?** un numero decimal? una palabra? una fecha?
+- **Que se va a guardar en la variable?** un numero entero? un numero decimal? una palabra? una fecha?
 - **Que vamos a hacer con ese dato?** Utilizaremos funciones aritmeticas (suma, resta, etc)? usarlo como referencia? o querremos saber que tan largo es, hacerle cambios en posiciones especificas, etc?
 - **Nos intereza ahorrar espacio de almacenamiento?** (por ejemplo en programas grandes o al tener espacio limitado como en microchips)
 
