@@ -118,9 +118,9 @@ Por norma general y si queremos ir a lo facil se puede tomar como que:
 Notas:
 - Numeros enteros solo positivos deberian en cambio utilizar **Unsigned Integer** para ahorrar espacio.
 
-Esto sin embargo puede variar. Ejemplo:
+Esto sin embargo puede variar. Ejemplo:<br>
 Si se desea guardar el numero de documento de una persona uno podria argumentar que al ser un numero no decimal deberia guardarse en un tipo int. Sin embargo si nos ponemos a analizar el uso del dato que guardaraemos la cosa cambia... Es mas factible que a dicho dato se le quiera tomar una parte (4 ultimos digitos por ejemplo) a que se lo quiera usar para sumarlo a otro numero. En este caso seria mejor un tipo String a un tipo Int, debido a sus funciones. Pero y si quiero por ejemplo buscar todos los dni > a x numero? no es lo mismo hacer x > 500 que x > "500" ("500" > "100000"). O si estoy trabajando con muy poco espacio o simplemente quiero optimizar mi programa? un tipo entero ocupa mucho menos que un tipo string.
-
-Este pequeño ejemplo muestra que no siempre se peude seguir una norma para definir el tipo de variable. El programador debera elegir el que mas se adapte a su caso de uso y sus necesidades.
+<br><br>
+Este pequeño ejemplo muestra que no siempre se puede seguir una norma para definir el tipo de variable. El programador debera elegir el que mas se adapte a su caso de uso y sus necesidades.
 
 ### Q: ¿Donde puedo aprender mas? <br> A: Recomiendo [esta pagina](https://www.w3schools.com/python/default.asp)
