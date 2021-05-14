@@ -7,4 +7,4 @@
 
 ### Cambios a Codigo existente:
 - Si es una correxion de error se aceptará.
-- Si  esotra forma de resolver el ejercicio o cambios que no afecten el funcionamiento debera crearse un archivo nuevo.
+- Si es otra forma de resolver el ejercicio o cambios que no afecten el funcionamiento debera crearse un archivo nuevo.
