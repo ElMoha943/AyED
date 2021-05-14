@@ -1,0 +1,7 @@
+str = input("Ingrese un texto")
+a = str.count("A")
+e = str.count("E")
+i = str.count("I")
+o = str.count("O")
+u = str.count("U")
+print(f"A = {a}\nE = {e}\nI = {i}\nO = {o}\nU = {u}")
