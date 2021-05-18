@@ -1,11 +1,12 @@
 cantC = 0
 cantD = 0
 mayoringreso = 0
+ingresodist = 0
 
 def menu():
     while True:
         while True:
-            option = input("MENU\n1. Total de habitantes en todo el municipio de Rosario.\n2. Cantidad total de habitantes por tipo de vivienda.\n3. Districto con mayor ingreso mensual.\n4. Salir")
+            option = input("MENU\n1. Total de habitantes en todo el municipio de Rosario.\n2. Cantidad total de habitantes por tipo de vivienda.\n3. Districto con mayor ingreso mensual.\n0. Salir")
             if option == '1' or option == '2' or option == '3' or option == '0':
                 break
         if(option == '1'):
@@ -33,7 +34,9 @@ for i in range(1,6):
         else:
             cantD +=cant
         ingreso = float(input("Ingrese el ingreso monetario de la vivienda.\n"))
-        if ingreso > mayoringreso:
-            mayoringreso = ingreso
-            mayordist = i
+        ingresodist += ingreso
+    if ingresodist > mayoringreso:
+        mayoringreso = ingreso
+        mayordist = i
+    ingresodist = 0
 menu()
