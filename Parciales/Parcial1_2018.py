@@ -6,7 +6,7 @@ def menu():
     while True:
         while True:
             option = input("MENU\n1. Total de habitantes en todo el municipio de Rosario.\n2. Cantidad total de habitantes por tipo de vivienda.\n3. Districto con mayor ingreso mensual.\n4. Salir")
-            if option == '1' or option == '2' or option == '3' or option == '4':
+            if option == '1' or option == '2' or option == '3' or option == '0':
                 break
         if(option == '1'):
             print(f"Total de habitantes: {cantC+cantD}\n")
